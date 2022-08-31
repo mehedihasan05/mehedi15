@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maindiv{
+    padding: 30px 0;
+    background: rgb(15, 221, 187);
+}
+.lfwf{
+    display: inline-block;
+}
+.lfwf h2{
+    padding-left: 30px;
+}
+
+.menu{
+    display: inline-block;
+    float: right;
+}
+.menu ul{
+    padding-right: 30px;
+}
+.menu ul li{
+   display: inline-block;
+   
+}
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffff;
+    padding: 0 25px 0 25px;
+}
+.menu ul li a:hover{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(224, 148, 7);
+    border-bottom: 3px solid rgb(21, 32, 97);
+    transition: .5s;
+    padding-bottom: 36px;
+}
+
+/* slider */
+.slider{
+    text-align: center;
+    background-image: url(./header-bg01.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+}
+.slider h1{
+    color: #fff;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+.slider h4{
+    color: #fff;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+.slider a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #ffff;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+/* service */
+.service{
+    padding: 80px 0;
+    text-align: center;
+    border-bottom: 2px solid rgb(8, 212, 127);
+}
+.service h1{
+    text-align: center;
+    color: rgb(58, 57, 57);
+}
+.service p{
+    text-align: center;
+}
+
+.design{
+    display: inline-block;
+    width: 250px;
+    margin-top: 70px;
+    border: 1px solid #ddd;
+    padding: 30px 15px 30px 15px;
+}
+.design i{
+    color: aqua;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.design h2, p{
+    color: rgb(83, 83, 83);
+    margin-bottom: 10px;
+}
+
+/* about section */
+.about{
+    width: 1200px;
+    padding: 70px 0;
+    margin: auto;
+    text-align: center;
+}
+.about h2, p{
+    text-align: center;
+}
+.about h2{
+    font-size: 35px;
+}
+.aboutitems{
+    display: inline-block;
+    margin-top: 40px;
+}
+.aboutitems img{
+    width: 480px;
+    height: auto;
+    display: inline-block;
+    margin-right: 30px;
+}
+.about-text{
+    display: inline-block;
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.div1 h3{
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: 25px;
+    margin-top: 15px;
+    color: rgb(146, 145, 145);
+}
+.div1 p{
+    text-align: left;
+    padding-bottom: 10px;
+}
+/* contactsec */
+.contactsec{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 150px;
+    background: rgb(230, 230, 230);
+}
+.contactsec h4{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.itemm{}
+.aiv1{
+    display: inline-block;
+    margin-right: 200px;
+    margin-top: 40px;
+}
+.aiv1:last-child{
+    margin-right: 0;
+}
+.aiv1 i{
+    color: aqua;
+    margin-bottom: 10px;
+}
+.aiv1 span{
+    color: rgb(78, 78, 78);
+}
+.aiv1 h5{
+    color: rgb(59, 59, 59);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* social */
+.social{
+    background: rgb(9, 211, 177);
+    text-align: center;
+    padding: 20px 0;
+}
+.social i{
+    margin-right: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+.social i:hover{
+    margin-right: 20px;
+    color: rgb(28, 44, 75);
+    font-size: 20px;
+    cursor: pointer;
+}
+.social i:last-child{
+    margin-right: 0;
+}
+/* footer */
+.footer{
+    text-align: center;
+    background: #000;
+    color: #ddd;
+    margin-bottom: 0;
+    padding: 10px 0;
+    font-size: 18px;
+}
+.footer{}
